@@ -12,6 +12,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'views', 'landing.html'));
 });
+app.get('/signup.html', (req, res) => {
+    res.sendFile(path.join(__dirname, 'views', 'signup.html'));
+});
+app.get('/login.html', (req, res) => {
+    res.sendFile(path.join(__dirname, 'views', 'login.html'));
+});
+
 
 
 app.listen(3000, () => console.log('Server running on http://localhost:3000'));
