@@ -132,7 +132,7 @@ footer p{
     text-decoration: none;
 }
 
-/* ========== отсюда уже contact us ==========  */
+/* ========== отсюда уже логин-регистр ==========  */
 
 .main-contact{
     height: 100vh;
@@ -188,5 +188,20 @@ footer p{
 }
 .submit-btn{
 
+}
+.forgot p{
+    font-size: 15px;
+    color: #7E7E7E;
+    margin-top: 10px;
+}
+
+.forgot p a{
+    text-decoration: none;
+    color: #C1C1C1;
+}
+
+.forgot p span{
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
 }
 /* ========= здесь стили about ========== */
